@@ -1,0 +1,553 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 603
+  horizontalOffset: 190
+  verticalOffset: -78
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 603
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_Black_87_fvkazo.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_lrzmk3.png);"></div><div
+        class="c-text"><div class="c-title">Dataflow</div><div
+        class="c-short-description">Processing and analyzing large amounts of
+        data in real-time or batch modes</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google DataflowLqmZM
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Dataflow
+        shortDescription: Processing and analyzing large amounts of data in real-time or
+          batch modes
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Dataflow
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Dataflow
+      editableName: Dataflow
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Dataflow
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_lrzmk3.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow__044448_wpsdj6.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_Black_87_fvkazo.png
+      color: "#3871e0"
+      controlText: Dataflow
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 285
+    offsetY: 209
+    zIndex: 0
+    outEdges:
+      - Straight ConnectorVTbTI
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_Black_87_re2ikj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_c8kslh.png);"></div><div
+        class="c-text"><div class="c-title">PubSub</div><div
+        class="c-short-description">Asynchronous messaging and event-driven
+        communication between distributed systems</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google PubSubgWONb
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google PubSub
+        shortDescription: Asynchronous messaging and event-driven communication between
+          distributed systems
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google PubSub
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google PubSub
+      editableName: PubSub
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google PubSub
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_c8kslh.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub__044448_yvz8nv.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_Black_87_re2ikj.png
+      color: "#3871e0"
+      controlText: PubSub
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 649
+    offsetY: 209
+    zIndex: 1
+    inEdges:
+      - Straight ConnectorVTbTI
+    outEdges:
+      - Dashed Straight Connectorpea7I
+      - Dashed Straight ConnectorUJunm
+      - Dashed Straight ConnectoruQnvq
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_Black_87_hlfiaq.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_rluunv.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>GCE</div></div><hr class="c-underrule"
+        style="background-color: #3871e0"></div>'
+    id: Google Compute EngineixtKm
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Compute Engine
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Compute Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Compute Engine
+      editableName: GCE
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+        - name: Connection Receiver
+          type: Storage
+          portsIn:
+            put: connection
+            get: get
+          portsOut:
+            stored: connection
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+        - type: Storage
+          status: Idle
+          name: Connection Receiver
+      name: Google Compute Engine
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_rluunv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine__044448_c5wixz.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_Black_87_hlfiaq.png
+      color: "#3871e0"
+      controlText: Compute Engine
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      latitude: null
+      longitude: null
+    width: 100
+    height: 124
+    offsetX: 860
+    offsetY: 112
+    zIndex: 3
+    inEdges:
+      - Dashed Straight Connectorpea7I
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>BigQuery</div></div><hr class="c-underrule"
+        style="background-color: #3871e0"></div>'
+    id: Google BigQueryR1GQR
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google BigQuery
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google BigQuery
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google BigQuery
+      editableName: BigQuery
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google BigQuery
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery__044448_tx0mzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png
+      color: "#3871e0"
+      controlText: BigQuery
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 979
+    offsetY: 208
+    zIndex: 4
+    inEdges:
+      - Dashed Straight ConnectoruQnvq
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_Black_87_fvkazo.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_lrzmk3.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Dataflow</div></div><hr class="c-underrule"
+        style="background-color: #3871e0"></div>'
+    id: Google DataflowLqmZMR4hbS
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Dataflow
+        shortDescription: Processing and analyzing large amounts of data in real-time or
+          batch modes
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Dataflow
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Dataflow
+      editableName: Dataflow
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Dataflow
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_lrzmk3.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow__044448_wpsdj6.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dataflow_Black_87_fvkazo.png
+      color: "#3871e0"
+      controlText: Dataflow
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 860
+    offsetY: 304
+    zIndex: 5
+    inEdges:
+      - Dashed Straight ConnectorUJunm
+connectors:
+  - id: Straight ConnectorVTbTI
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 435
+      y: 209
+    targetPoint:
+      x: 499
+      y: 209
+    sourceID: Google DataflowLqmZM
+    targetID: Google PubSubgWONb
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Dashed Straight Connectorpea7I
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 757.76
+      y: 159
+    targetPoint:
+      x: 810
+      y: 134.99
+    sourceID: Google PubSubgWONb
+    targetID: Google Compute EngineixtKm
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Dashed Straight ConnectorUJunm
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 760.05
+      y: 259
+    targetPoint:
+      x: 810
+      y: 281.49
+    sourceID: Google PubSubgWONb
+    targetID: Google DataflowLqmZMR4hbS
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Straight ConnectoruQnvq
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 799
+      y: 208.55
+    targetPoint:
+      x: 929
+      y: 208.15
+    sourceID: Google PubSubgWONb
+    targetID: Google BigQueryR1GQR
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+selectedItems:
+  width: 0
+  height: 0
